@@ -20,17 +20,19 @@ typedef struct
     sub_ft sub;
 }Arithematic;
 
-void Arith_ctor(Arithematic *current)
+void Arith_ctor(Arithematic **current)
 {
-    (*current).add = add;
-    (*current).sub = sub;
+    Arithematic *newobj = (Arithematic*)malloc(sizeof(Arithematic));
+    *current = newobj;
+    (*current)->add = add;
+    (*current)->sub = sub;
 }
 
 void main()
 {
-    Arithematic Arith;
+    Arithematic *Arith;
     Arith_ctor(&Arith);
-    int addition = Arith.add(5,2);
-    int subtraction = Arith.sub(5,2);
+    int addition = Arith->add(5,2);
+    int subtraction = Arith->sub(5,2);
     printf("Results : %d and %d",addition,subtraction);
 }
