@@ -1,0 +1,229 @@
+/* mobile settings */
+.mobile-unit {
+	display:none;
+}
+
+@media screen and (max-width: 480px)  {   
+.mobile-unit {
+	display:block;
+}
+.non-mobile-unit {
+	display:none;
+}
+#leaderboard1, #leaderboard2,
+#h-nav,	
+#search,
+#subnav, #bottom, #left-col, #right-col .box
+ {
+	display:none;
+}	
+body {
+	background: none;
+	margin-top:0;	 
+}
+#container, #right-col, #cloud #right-col  {
+	width:304px;	
+}
+#right-col {
+	margin-left:0;
+}
+#cloud #right-col {
+	margin:0;	
+}
+#header {
+	background: transparent url('http://ubmelectronicsvirtualconferences.businesscatalyst.com/sandbox/mateusz/ddj/dobbs_top_header_mobile.png') no-repeat top left;
+	padding-left:0;
+	padding-right:0;
+}
+#login {
+	padding-left:0px !important;	
+}
+#login, #login a {
+	color:#003BB0 !important;
+	font-size:12px !important;
+}
+#login strong {
+	color:black !important;
+}
+/************ NAVIGATION ************/
+#h-nav_mainSection, #h-nav_social {
+	display:none; 
+}
+#h-nav_main { padding:0;}
+
+#h-nav_mainSection-mobile, #h-nav2_mainSection-mobile {
+	margin-top:45px;
+    background: none repeat scroll 0 0 #207617;
+    color: white;
+    float: left; 
+    font-size: 14px;
+    font-weight: bold;
+    width: 49%;
+	height:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	cursor:pointer;
+}
+#h-nav2_mainSection-mobile {
+	margin-top:-30px;
+	float:right;	
+}
+#h-nav_mainSection-mobile a, #h-nav2_mainSection-mobile a {
+	color: white;
+    line-height: 30px;
+    padding-left: 15px;
+}
+#h-nav_mainSection-mobile a:hover, #h-nav2_mainSection-mobile a:hover {
+	text-decoration:none;
+}
+#h-nav_mainSection-mobile ul, #h-nav2_mainSection-mobile ul {
+    background: none repeat scroll 0 0 #207617;
+    display: none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;   
+    width: 149px;
+    z-index: 10000;	
+}
+#h-nav_mainSection-mobile ul a, #h-nav2_mainSection-mobile ul a {
+    color: white;
+    display: block;
+    float: none;
+    height: auto;
+    margin: 0;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    text-indent: inherit;	
+}
+/************ COLUMNS & RIGHT-COL ************/
+#right-col, #content, #left-col {
+	clear:both;
+	margin-left:0px;
+}
+#content, .subsection, .events, .share-index {
+	width:304px !important;	
+}
+#content .events {
+	margin-bottom:0px;
+}
+#content .best {
+	width:304px;
+}
+#content .brandividual {	
+	background: #e5e8ed url('http://ubmelectronicsvirtualconferences.businesscatalyst.com/sandbox/mateusz/ddj/brandividual_header_304.png') top left no-repeat;
+}
+#newsheadlines {
+	margin-top:10px;
+}
+.mostpopular .box_wrap, .mostrecent .box_wrap,
+#upcoming_tabs .tab-content {
+	width:292px !important;
+}
+#right-col .subsection {
+	margin-bottom:0px !important;
+}
+/************ ARTICLE PAGE ************/
+.commentLink, div.article-resources {
+	display:none;
+}
+#content .story img, #content img {
+	  max-width: 100%;
+    margin: 2px;
+    float: left; 
+    overflow: auto;
+}
+#content .related-resources {
+	margin-left:0px;
+}
+#cloud-header, #blog-title-strip {
+	display:none;
+}
+/************ REGISTRATION ************/
+#TWLightBoxPanel, #nextGenLoginInstruction, #nextGenContainer, #nextGenLoginContainer {
+	width:100% !important;
+	background-color:#eee !important;	
+}
+#nextGenLoginContainer {
+	padding:0;
+}
+#nextGenLoginLogo, #nextGenLoginInstruction  {
+	display:none;
+} 
+#TWLightBoxPanel.drdobbs #nextGenLoginContainer {
+	background:none;
+	background-color:white;
+}
+#nextGenLoginForm {
+	width:304px !important;
+	padding-left: 0px !important;
+}
+.nextGenWideContainerTop, .nextGenWideInnerContainer, .nextGenNarrowContainerTop, .nextGenNarrowInnerContainer, .nextGenNarrowContainerBottom {
+	background:none !important;	
+}
+.nextGenWideContainerBottom {
+	display:none !important;
+}
+#nextGenLoginForm span.rememberMe, #nextGenLoginForm span.loginButton {
+	margin-left:0px !important;
+}
+#nextGenLoginExtAuth {
+	margin-left:0px !important;
+}
+#nextGenLoginContainer {
+	height:auto !important;
+}
+#TWLightBoxPanel {
+	border:0 !important; margin-top: 0px !important; top: 0 !important;
+}
+.nextGenNarrowInnerContainer {
+	margin-bottom:20px !important;
+}
+#nextGenLoginContainer #layout, #nextGenLoginContainer #main, #nextGenLoginContainer #main, #nextGenLoginContainer #body_container, #nextGenLoginContainer #body_container_inner, #nextGenLoginContainer #register_full_container_inner, #nextGenLoginContainer #register_full_container, #nextGenLoginContainer .contents {
+	width:304px !important;	
+}
+#nextGenLoginContainer #registrationForm fieldset.logininformation,
+#nextGenLoginContainer #registrationForm fieldset.personal,
+#nextGenLoginContainer #registrationForm fieldset.businessaddress, 
+#nextGenLoginContainer #registrationForm fieldset.custom-question,
+#nextGenLoginContainer #registrationForm fieldset#fieldset-s4 {
+	
+	width:304px !important; padding:0 !important;
+}
+#nextGenLoginContainer #registrationForm .formElement.elementType_text input, #nextGenLoginContainer #registrationForm .formElement.elementType_password input, #nextGenLoginContainer #registrationForm .formElement.elementType_select select, 
+#nextGenLoginContainer #fieldset-s4 .multi-checkboxes {
+	width:100% !important;
+}
+#nextGenLoginContainer #registrationForm #footer-label {
+	padding-top:5px !important;
+	margin-bottom:30px !important;
+}
+/************ REGISTRATION - FORGOT PWD************/
+#nextGenLoginContainer #register_full_container_inner .contents_left_forgotpw  {
+	padding:0;
+}
+
+body {
+    background: url("http://twimgs.com/ddj/v2/images/dobbs_background.jpg") repeat-x scroll left top #F9FAFC;
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+body {
+    background: url("../images/background.gif") repeat-x scroll left top #F9FAFC;
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+#nextGenLoginContainer #register_full_container_inner .contents h1, #nextGenLoginContainer #register_full_container_inner .contents #displayAsset {
+	display:none;
+}
+/************ Slideshow************/
+#NWC_IG, #NWC_IG #IG_right, #NWC_IG #IG_left {
+	width:304px;
+}
+#content center {
+	float:left;
+}
+#content .downloadable-product .description {
+	width:100% !important;
+}
+
+
+}  

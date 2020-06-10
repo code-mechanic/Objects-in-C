@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* *********************************** */
+/* Customized Poll Styles */
+
+#poll  {
+	
+}
+
+#poll h4 {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif !important;
+	/* font-size:1.3em; */
+	font-size:14px !important;
+	font-weight:bold;
+	color:#ffffff;
+	background-image:url('http://twimgs.com/informationweek/poll/poll_header_background.gif');
+	background-position:top right;
+	background-repeat:no-repeat;
+	height:23px;
+	text-align:left;
+}
+
+#poll h4 span {
+	margin:0;
+	padding:5px 0 0 10px !important;
+	background-image:url('http://twimgs.com/informationweek/poll/poll_header_left.gif');
+	background-position:top left;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	display: block;
+}
+
+
+#poll .pollContent {
+	margin:0;
+	padding:12px 12px 18px 12px;
+	border-right:solid 1px #c1c0c0;
+	border-bottom:solid 1px #c1c0c0;
+	border-left:solid 1px #c1c0c0;
+	background-color:#ffffff;
+}
+
+.nextGenDataCenter #bd .secondary-content #poll .pollContent {
+	margin:0;
+	padding:0 12px 5px 12px;
+	border:none !important;
+	background-color:#ffffff;
+}
+
+#poll .pollContent .default {
+	color:#666666;
+}
+
+#poll table {
+	width:100%;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+#poll .pollContent td.qp_question {
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:1.3em;
+	margin:0 0 0 0;
+	padding:0 0 6px 0 !important;
+}
+
+#poll .pollContent td {
+	margin:0;
+	padding:6px 0 3px 0;
+}
+
+#poll .pollContent td input[type="radio"] {
+	margin: 0 13px 0 13px !important;
+	padding:0; 
+}
+
+#poll .pollContent td form input[type="radio"] {
+	margin: 9px 13px 0 13px !important;
+	padding:0; 
+}
+
+#poll .pollContent input[type="submit"] {
+	margin: 15px 0 0 0;
+	/* padding-top:1px; */
+	width:51px !important;
+	height:18px !important;
+	background-image:url('http://twimgs.com/informationweek/poll/button_vote_plainNoText.gif');
+	background-position:top left;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:uppercase;
+	border:none;
+}
+
+.nextGenDataCenter #bd .secondary-content #poll .pollContent input[type="submit"] {
+	margin: 15px 0 0 0;
+	/* padding-top:1px; */
+	width:100px !important;
+	height:29px !important;
+	background-image:url(http://twimgs.com/networkcomputing/next-gen/button_poll_vote.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	border:none;
+	text-indent: -1000em;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:uppercase;
+	cursor: pointer;
+}
+ 
+.bigData #bd .secondary-content #poll .pollContent { /* for BigData, secondary-content column */
+	/* margin:-14px 0 -27px 0 !important;  see below. space closd up. reducing further. JH 8/6/12 */
+	margin:-14px 0 -45px 0 !important;
+	padding:0 10px 0 10px !important;
+	border:none;
+}
+
+.nextGenDataCenter #bd .secondary-content #poll .pollContent { /* for Next-Gen Data Center, secondary-content column */
+	/* margin:-14px 0 -27px 0 !important;  see below. space closd up. reducing further. JH 2/14/13 */
+	margin:-14px 0 -45px 0 !important;
+	padding:0 10px 0 10px !important;
+	border:none;
+}
+
+.story #poll, /* DDJ */
+.text #poll, /* BYTE */
+#article #poll, /* FTN uses and ID of article vs. a class.*/
+.article-entry #poll, /* 2012 DR redesign */
+.article-v2 #poll, /* 2012 IWK article template redesign */
+.article #poll { 
+	max-width:500px;
+	text-align:left;
+}
+
+.story #poll.left, /* DDJ */
+.text #poll.left, /* BYTE */
+#article #poll.left, /* FTN uses and ID of article vs. a class.*/
+.article-entry #poll.left, /* 2012 DR redesign */
+.article-v2 #poll.left, /* 2012 IWK article template redesign */
+.article #poll.left {
+	float:left !important;
+	width: 191px !important;
+	margin:0 14px 14px 0 !important;
+	clear:none;
+}
+
+.story #poll.right, /* DDJ */
+.text #poll.right, /* BYTE */
+#article #poll.right,  /* FTN uses and ID of article vs. a class.*/
+.article-entry #poll.right, /* 2012 DR redesign */
+.article-v2 #poll.right, /* 2012 IWK article template redesign */
+.article #poll.right {
+	float:right !important;
+	width: 191px !important;
+	margin:0 0 14px 14px !important;
+	clear:none;
+}
+
+.story #poll h4, /* DDJ */
+.text #poll h4, /* BYTE */
+#article #poll h4,  /* FTN uses and ID of article vs. a class.*/
+.article-entry #poll h4, /* 2012 DR redesign */
+.article-v2 #poll h4, /* 2012 IWK article template redesign */
+.article #poll h4 {
+	margin:0 0 0 0;
+}
+
+.story #poll .pollContent, /* DDJ */
+.text #poll .pollContent, /* BYTE */
+#article #poll .pollContent,  /* Advanced Trading uses and ID of article vs. a class.*/
+.article-entry #poll .pollContent, /* 2012 DR redesign */
+.article-v2 #poll .pollContent, /* 2012 IWK article template redesign */
+.article #poll .pollContent {
+	padding:1px 12px 4px 12px !important;
+}
+
+
+/* END Customized Poll Styles */

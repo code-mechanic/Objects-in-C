@@ -1,0 +1,798 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* changed from your (existing or dev) ddj code ... */ 
+
+#header {
+   clear: both;
+   margin:0 0 0 0;
+   padding:8px 8px 0 4px;
+   background: transparent url('http://twimgs.com/ddj/v2/images/nav/dobbs_top_header_2.gif') no-repeat top left;
+   /* height: 145px; 
+   min-height:115px; */
+   min-height:113px;
+}
+
+#search {
+  color: white;
+  font-size: .8em;
+  font-weight:bold;
+  position: realtive;
+  top: 20px;
+  left: 393px;
+  width: 297px;
+}
+
+#search form {
+   margin: 0px;
+   padding: 0px;
+}
+
+#search form ul {
+   margin: 0px;
+   padding: 0px;
+}
+
+#search li {
+  _display: inline;
+  float: left;
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+#search span {
+  clear: both;
+}
+
+#search .text {
+  margin: 2px 0 0;
+  width: 164px;
+}
+
+#search input.search {
+  background: transparent url('http://twimgs.com/ddj/v2/images/button_search.gif') no-repeat top left;
+  border: 0;
+  height: 30px;
+  width: 83px;
+}
+
+#search input:hover.search {
+  background: transparent url('http://twimgs.com/ddj/v2/images/button_search.gif') no-repeat bottom left;
+  cursor: pointer;
+}
+
+
+#columns {
+  clear:both;
+  background-color: #F9FAFC;
+  margin:0;
+  padding:0 0 0 0px;
+}
+
+/* END: changed from your (existing or dev) ddj code ... */
+
+
+#h-nav {
+  float:right;
+  width:180px;
+  margin:0 8px 0 0;
+  padding:0;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#h-nav ul {
+	margin:0;
+	padding:0;
+	text-align:right;
+	list-style:none;
+}
+
+#h-nav li {
+	margin:0 0 6px 0;
+	padding:0;
+}
+
+#h-nav li a:link,
+#h-nav li a:active,
+#h-nav li a:visited {
+	color: #ffffff;
+	text-transform: none;
+	display: block;
+}
+
+#h-nav li a:hover {
+	color: #ffffff;
+	text-transform: none;
+	display: block;
+	text-decoration:underline;
+}
+
+#h-nav_main {
+	clear:both;
+	/* margin:38px 0 0 0 !important; */
+	/* margin:5px 0;  */
+	/* margin:0px 0; */
+	padding:0 4px 0 4px;
+	height:21px !important;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#h-nav_mainSection {
+	position:absolute;
+	margin:0;
+	padding:0;
+	width: 785px;
+	height:21px;
+}
+
+#h-nav_mainSection ul {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	list-style:none;
+}
+
+#h-nav_mainSection ul li {
+	margin:0 10px 0 0;
+	padding:0 0 0 0;
+	height:21px;
+	display: inline;
+	/* background-color: #ffffff; */
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: none;
+	text-align:center !important;
+	display:block;
+	float:left;
+}
+
+#h-nav_mainSection ul li a {
+	margin:0 0 0 0;
+	/* padding:4px 0 0 0; */
+	padding:3px 0 0 0;
+	*padding:3px 0 0 0;
+	text-transform:none;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+}
+
+#h-nav_mainSection ul li a:hover {
+	color: #ffffff;
+	text-decoration:none;
+}
+
+
+#h-nav_mainSection li.h-58-c a, /* these are the TEXT style definitions for the selected states of h-nav_mainSection */
+#h-nav_mainSection li.h-68-c a,
+#h-nav_mainSection li.h-78-c a,
+#h-nav_mainSection li.h-88-c a,
+#h-nav_mainSection li.h-98-c a,
+#h-nav_mainSection li.h-108-c a,
+#h-nav_mainSection li.h-118-c a,
+#h-nav_mainSection li.h-128-c a,
+#h-nav_mainSection li.h-138-c a,
+#h-nav_mainSection li.h-148-c a {
+	color: #000000;
+	text-transform: none;
+	text-decoration:none;
+	text-align:center !important;
+}
+
+#h-nav_mainSection li.h-58 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-58-c a {
+	width:58px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-58 a:link,
+#h-nav_mainSection li.h-58 a:active,
+#h-nav_mainSection li.h-58 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -40px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-58 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -40px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-58-c a:link,
+#h-nav_mainSection li.h-58-c a:active,
+#h-nav_mainSection li.h-58-c a:visited {
+	color: #000000;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -40px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-58-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -40px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_mainSection li.h-68 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-68-c a {
+	width:68px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-68 a:link,
+#h-nav_mainSection li.h-68 a:active,
+#h-nav_mainSection li.h-68 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -111px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-68 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -111px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-68-c a:link,
+#h-nav_mainSection li.h-68-c a:active,
+#h-nav_mainSection li.h-68-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -111px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-68-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -111px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_mainSection li.h-78 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-78-c a {
+	width:78px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-78 a:link,
+#h-nav_mainSection li.h-78 a:active,
+#h-nav_mainSection li.h-78 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -191px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-78 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -191px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-78-c a:link,
+#h-nav_mainSection li.h-78-c a:active,
+#h-nav_mainSection li.h-78-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -191px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-78-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -191px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_mainSection li.h-88 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-88-c a {
+	width:88px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-88 a:link,
+#h-nav_mainSection li.h-88 a:active,
+#h-nav_mainSection li.h-88 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -281px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-88 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -281px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-88-c a:link,
+#h-nav_mainSection li.h-88-c a:active,
+#h-nav_mainSection li.h-88-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -281px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-88-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -281px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_mainSection li.h-98 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-98-c a {
+	width:98px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-98 a:link,
+#h-nav_mainSection li.h-98 a:active,
+#h-nav_mainSection li.h-98 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -381px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-98 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -381px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-98-c a:link,
+#h-nav_mainSection li.h-98-c a:active,
+#h-nav_mainSection li.h-98-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -381px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-98-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -381px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_mainSection li.h-108 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-108-c a {
+	width:108px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-108 a:link,
+#h-nav_mainSection li.h-108 a:active,
+#h-nav_mainSection li.h-108 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -491px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-108 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -491px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-108-c a:link,
+#h-nav_mainSection li.h-108-c a:active,
+#h-nav_mainSection li.h-108-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -491px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-108-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -491px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_mainSection li.h-118 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-118-c a {
+	width:118px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-118 a:link,
+#h-nav_mainSection li.h-118 a:active,
+#h-nav_mainSection li.h-118 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -611px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-118 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -611px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-118-c a:link,
+#h-nav_mainSection li.h-118-c a:active,
+#h-nav_mainSection li.h-118-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -611px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-118-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -611px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_mainSection li.h-128 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-128-c a {
+	width:128px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-128 a:link,
+#h-nav_mainSection li.h-128 a:active,
+#h-nav_mainSection li.h-128 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -741px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-128 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -741px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-128-c a:link,
+#h-nav_mainSection li.h-128-c a:active,
+#h-nav_mainSection li.h-128-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -741px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-128-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -741px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_mainSection li.h-138 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-138-c a {
+	width:138px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-138 a:link,
+#h-nav_mainSection li.h-138 a:active,
+#h-nav_mainSection li.h-138 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -880px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-138 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -880px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-138-c a:link,
+#h-nav_mainSection li.h-138-c a:active,
+#h-nav_mainSection li.h-138-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -880px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-138-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -880px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+
+#h-nav_mainSection li.h-148 a, /* defines the height and width of the "class size" */
+#h-nav_mainSection li.h-148-c a {
+	width:148px !important;
+	height:21px !important;
+}
+
+#h-nav_mainSection li.h-148 a:link,
+#h-nav_mainSection li.h-148 a:active,
+#h-nav_mainSection li.h-148 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -1030px -40px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-148 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -1030px -70px; /* position is x, y */
+}
+
+#h-nav_mainSection li.h-148-c a:link,
+#h-nav_mainSection li.h-148-c a:active,
+#h-nav_mainSection li.h-148-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -1030px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_mainSection li.h-148-c a:hover {
+	color: #ffffff;
+	text-transform: none;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -1030px -70px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_goParallel {
+	float:right !important;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width:88px;
+	height:21px;
+}
+
+#h-nav_goParallel ul {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	list-style:none;
+}
+
+#h-nav_goParallel ul li {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	height:21px;
+	display: inline;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: none;
+	text-align:center !important;
+	display:block;
+	float:left;
+}
+
+#h-nav_goParallel ul li a {
+	margin:0 0 0 0;
+	padding:3px 0 0 0;
+	/* padding:5px 0 0 0; */
+	*padding:4px 0 0 0;
+	text-transform:none;
+	color:#f4e4a1;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+}
+
+#h-nav_goParallel ul li a:hover {
+	color: #ffffff;
+	text-decoration:none;
+}
+
+
+#h-nav_goParallel li.h-88 a, /* defines the height and width of the "class size" */
+#h-nav_goParallel li.h-88-c a {
+	width:88px !important;
+	height:21px !important;
+}
+
+#h-nav_goParallel li.h-88 a:link,
+#h-nav_goParallel li.h-88 a:active,
+#h-nav_goParallel li.h-88 a:visited {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -281px -70px; /* position is x, y */
+}
+
+#h-nav_goParallel li.h-88 a:hover {
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -281px -40px; /* position is x, y */
+}
+
+#h-nav_goParallel li.h-88-c a:link,
+#h-nav_goParallel li.h-88-c a:active,
+#h-nav_goParallel li.h-88-c a:visited {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -281px -100px; /* position is x, y */
+	text-decoration:none;
+	text-transform: none;
+}	
+
+#h-nav_goParallel li.h-88-c a:hover {
+	color: #ffffff;
+	background:url(http://twimgs.com/ddj/v2/images/h-nav_button_master.png);
+	background-repeat:no-repeat;
+	background-position: -281px -40px; /* position is x, y */
+	text-transform: none;
+}
+
+#h-nav_social {
+	height:21px;
+	width:100px;
+	float:left;
+	margin:0 0 0 785px;
+	padding:0;
+}
+
+#h-nav_social ul {
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  list-style:none;
+  display:block;
+}
+
+#h-nav_social ul li {
+  margin:0 10px 0 0;
+  padding:0;
+  width:21px;
+  text-align:center !important;
+  display:block;
+  float:left;
+}
+
+/* Begin Sub Nav */
+#subnav {
+  clear:both;
+  background-image: url("http://i.cmpnet.com/ddj/v2/images/nav/sub_nav_background.jpg");
+  /* background-color: #ffffff; */
+  margin:0 !important;
+  padding:0 !important;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/*
+#nav2 {
+  background-image: url("http://i.cmpnet.com/ddj/v2/images/nav/sub_nav_background.jpg");
+  background-color: #ffffff; 
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: normal;
+  font-size:1em;
+  height: 28px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+*/
+
+#subnav ul {
+  margin:0;
+  padding:0;
+  height:28px;
+  border-top:solid 1px #F2E0AA;
+  border-bottom:solid 1px #F2E0AA;
+  background-image: url("http://i.cmpnet.com/ddj/v2/images/nav/sub_nav_background.jpg");
+  /* background-color: #ededef; */
+  list-style:none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:.9em;
+  font-weight: normal;
+}
+
+#subnav li {
+  float: left;
+  margin: 0;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  line-height:normal;
+  font-size: 1em;
+  text-transform: none;
+  border-right: 1px solid #FFFFFF;
+  text-transform: none;
+} 
+
+#subnav li.lastitem {
+	border-right: 0;
+}
+
+#subnav li a,
+#subnav li a:hover {
+	display:block;
+	color:#16530f;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#subnav li a:active {
+    color: #FF3300;
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/*
+#subnav li a:hover {
+	color:#16530f;
+	text-decoration:underline;
+}
+*/
+#subnav li.c,
+#subnav li.c a {
+	background-color:#930005;
+	color: #ffffff;
+}
+
+/*
+#subnav li.c {
+	padding-top: 3px;
+	padding-bottom: 4px;
+	border-bottom: 0;
+}
+*/
+
+/* This style is being used to highlight the channels (Parallel, Design etc.) */
+.channelActive {	
+	color: #FF3300 !important;
+}
+
+/* End Sub Nav */
+
+/* END: changed from your (existing or dev) ddj code ... */
+
+/* This style is to fix IE7 margin issue for h-nav_mainSection */
+#clearLeft {
+	clear: left;
+}

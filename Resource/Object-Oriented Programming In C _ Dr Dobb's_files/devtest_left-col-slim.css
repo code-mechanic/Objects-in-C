@@ -1,0 +1,30 @@
+/* This file over-writes and extends values in style.css, for pages that use the slim left nav look and feel:  narrower left column, wider main content column, etc. */
+#left-col { width: 168px; }
+#left-col .guru-blogs { background-color: #EEEEEA; }
+#left-col .guru-blogs h2 {
+	background: transparent url('../images/guru_hed_narrow.gif') top left no-repeat;
+	height: 38px;
+	margin-top: 0px;
+}
+#left-col .guru-blogs h2 span { display: block; }
+#left-col .guru-blogs h3 {
+	color: #8D8B8B;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	margin: 15px 0px 0px 0px;
+}
+#left-col .guru-blogs h3 a {
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 15px 0px 0px 0px;
+}
+#left-col .guru-blogs p { font-size: .8em; font-weight: bold; margin: 0px; }
+#left-col .guru-blogs p { _width: 80%; } /* Prevent width from making whole block too wide in IE6 */
+#left-col .guru-blogs h3, #left-col .guru-blogs p { margin-left: 10px; }
+#left-col .channels h2 { background: transparent url('../images/channel_hed_narrow_168.gif') top left no-repeat; }
+#content { width: 635px; margin-left: 10px; }
+
+/* The "What's a Guru?" link in some of the left columns needs less left margin in slim pages */
+#whats-a-guru {	left: 173px; margin-right: -173px; }
+
+

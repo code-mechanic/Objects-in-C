@@ -1,0 +1,40 @@
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+#content h3.resources { margin-bottom: 16px; font-size: 18px; font-weight: bold; color: #92270E; }
+#content h3.related { color: #000; }
+#content div.resources { clear: left; }
+#content .related-resources { float: left; width: 181px; margin: 0 0 35px 35px; }
+#content .related-resources.first { margin-left: 0px; }
+#content .related-resources h3 { margin-bottom: 10px; font-size: 14px; font-weight: bold; }
+#content .related-resources ul { margin: 0; padding: 0; }
+#content .related-resources li { list-style: none; padding-bottom: 10px; font-size: 12px; font-weight: normal; }
+#content .related-resources li a { font-weight: normal; }
+#content .related-resources .toc { margin: 0; margin-bottom: 9px; padding-left: 2px; border-bottom: 1px solid #5c7f2a; }
+#content .related-resources .tabbed .toc li { float: left; position: relative; margin: 0; padding-bottom: 0; background: url('http://twimgs.com/ddj/v2/images/article/tab-sprite.dobbs.png') no-repeat 0 0; }
+#content .related-resources .tabbed .toc li.first { margin-right: 4px; }
+#content .related-resources .tabbed .toc li:hover, 
+#content .related-resources .tabbed .toc li.active { background-position: 0 -34px; }
+#content .related-resources .tabbed .toc li.current { top: 1px; background-position: 0 -68px; }
+#content .related-resources .tabbed .toc li a { display: block; line-height: 18px; margin-left: 6px; padding: 1px 6px 0 0; background: url('http://twimgs.com/ddj/v2/images/article/tab-sprite.dobbs.png') no-repeat right 0px; font-weight: bold; color: #fefefe; text-decoration: none; }
+#content .related-resources .tabbed .toc li a:hover, 
+#content .related-resources .tabbed .toc li:hover a, 
+#content .related-resources .tabbed .toc li.active a { background-position: right -34px; color: #fefefe; }
+#content .related-resources .tabbed .toc li.current a { background-position: right -68px; color: #5c7f2a; text-decoration: none; }
+/* Friday, January 20, 2012: Corrected the structure. */
+#content .related-resources a.continue { font-size: 10px; font-family: verdana; font-weight: bold; text-align: left; }
+.article-meta-bottom { margin-bottom: 25px; text-align: center; font-size: 12px; }
+.article-meta-bottom .article-comments span {
+    padding: 5px 12px;
+    *padding: 4px 12px 6px 12px;
+    font-family: arial;
+    font-weight: bold;
+    color: #FFF;
+    background: url('http://twimgs.com/ddj/v2/images/article/icon-comments.png') no-repeat 50% 4px;
+}
+.article-meta-bottom .article-comments span a, 
+.article-meta-bottom .article-comments span a:active, 
+.article-meta-bottom .article-comments span a:visited, 
+.article-meta-bottom .article-comments span a:hover, 
+.article-meta-bottom .article-comments span a:visited:hover { color: #fff; text-decoration: none; }
+#content hr { clear: both; margin-bottom: 30px; border: 0; border-top: 1px solid #ccc; color: #ccc; }

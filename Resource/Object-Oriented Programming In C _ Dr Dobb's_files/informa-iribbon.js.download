@@ -1,0 +1,16 @@
+$( document ).ready(function() {
+	$("#iribbon-title").click(function() {
+	$( "#iribbon-detail" ).slideToggle("slow",function(){
+	  $( "#iribbon-detail" ).toggleClass( "ribbon-show" );
+	  $("#iribbon-title").toggleClass("active");
+		});
+	});
+	$("#iribbon-detail ul li a").mouseover(function(){
+		$(this).addClass("iribbon-opacity-over");
+		$(this).removeClass("iribbon-opacity-out");
+	});
+	$("#iribbon-detail ul li a").mouseout(function(){
+		$(this).addClass("iribbon-opacity-out");
+		$(this).removeClass("iribbon-opacity-over");
+	});
+});	
